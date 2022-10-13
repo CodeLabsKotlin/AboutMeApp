@@ -24,21 +24,42 @@
         app:srcCompat="@android:drawable/btn_star_big_on"
         tools:ignore="ImageContrastCheck" />
 
+
+
     <ScrollView
         android:id="@+id/bio_scroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/bio_text"
-            style="@style/NameStyle"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:lineSpacingExtra="1.2sp"
-            android:lineSpacingMultiplier="1.2"
-            android:text="@string/bio"
-            android:textAlignment="center" />
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgen2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/imagen_final"
+                app:srcCompat="@android:drawable/checkbox_on_background"
+                tools:ignore="ImageContrastCheck"/>
+
+            <TextView
+                android:id="@+id/bio_text"
+                style="@style/NameStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/tick_label"
+                android:lineSpacingExtra="1.2sp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/bio"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
     </ScrollView>
+
 
 
 </LinearLayout>

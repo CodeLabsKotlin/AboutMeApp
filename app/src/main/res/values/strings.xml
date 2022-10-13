@@ -10,4 +10,6 @@
         \n\nut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         \n\nlaboris nisi ut aliquip ex ea commodo consequat.
     </string>
+    <string name="tick_label">tick</string>
+    <string name="imagen_final">imagen_final</string>
 </resources>

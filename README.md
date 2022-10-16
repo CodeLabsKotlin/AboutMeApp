@@ -28,4 +28,4 @@ El siguiente paso seria dirigirnos al repositorio que queremos descargar y harem
 Kotlin
 
 ## Estado del proyecto
-:construction: En construccion
+:white_check_mark: Finalizado
